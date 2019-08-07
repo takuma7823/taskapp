@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		FB46B8B322EB2DC1005B2B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB46B8B222EB2DC1005B2B6E /* Assets.xcassets */; };
 		FB46B8B622EB2DC1005B2B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB46B8B422EB2DC1005B2B6E /* LaunchScreen.storyboard */; };
 		FB46B8BE22EB308B005B2B6E /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46B8BD22EB308B005B2B6E /* InputViewController.swift */; };
+		FB46B8E122EDD821005B2B6E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46B8E022EDD821005B2B6E /* Task.swift */; };
 		FFB27D05C406231ED287D50D /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23F96DE1B9CA5CCF981729E /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		FB46B8B522EB2DC1005B2B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB46B8B722EB2DC1005B2B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB46B8BD22EB308B005B2B6E /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		FB46B8E022EDD821005B2B6E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				45626093E1B9934304AEFFCD /* Pods-taskapp.debug.xcconfig */,
 				0519E14494158613A66A6A97 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +82,7 @@
 		FB46B8AA22EB2DBE005B2B6E /* taskapp */ = {
 			isa = PBXGroup;
 			children = (
+				FB46B8E022EDD821005B2B6E /* Task.swift */,
 				FB46B8AB22EB2DBF005B2B6E /* AppDelegate.swift */,
 				FB46B8AD22EB2DBF005B2B6E /* ViewController.swift */,
 				FB46B8AF22EB2DBF005B2B6E /* Main.storyboard */,
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB46B8E122EDD821005B2B6E /* Task.swift in Sources */,
 				FB46B8BE22EB308B005B2B6E /* InputViewController.swift in Sources */,
 				FB46B8AE22EB2DBF005B2B6E /* ViewController.swift in Sources */,
 				FB46B8AC22EB2DBF005B2B6E /* AppDelegate.swift in Sources */,
